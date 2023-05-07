@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Starbucks Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="starbucks logo" width="90px">
+        </div>
+        <ul class="nav-link">
+            <li><a href="#home">home</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#order">order</a></li>
+        </ul>
+    </header>
+
+    <section id="home" class="home">
+        <div class="text">
+            <h2>Treat Yourself with <span>Starbucks</span> </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Blanditiis veritatis eaque voluptatibus unde. Minus ex molestiae 
+                cumque magnam aut quas, consequuntur laborum veniam, culpa dolorem 
+                veritatis rem iusto eius excepturi!
+            </p>
+            <button class="btn">order now!</button>
+        </div>
+        <div class="box-img">
+            <div class="bg-img"></div>
+            <img src="img/home-img.png" alt="" width="300px">
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h1>Menu</h1>
+        <ol class="menu-item">
+            <li>
+                <div class="bg-img bg-item"></div>
+                <p>Peach Frappucino <span>Php 180</span></p>
+                <img src="img/item1.png" alt="" width="270px">
+            </li>
+            <li>
+                <div class="bg-img bg-item"></div>
+                <p>Coffee Drink with Toffee Nut Crunch <span>Php 180</span></p>
+                <img src="img/item2.png" alt="" width="180px">
+            </li>
+            <li>
+                <div class="bg-img bg-item"></div>
+                <p>Tea Ramisu Frappucino with Toffee Mocha Crunch <span>Php 180</span></p>
+                <img src="img/item3.png" alt="" width="200px">
+            </li>
+        </ol>
+    </section>
+
+    <section id="order" class="oder">
+        <table border="3">
+                <tr>
+                    <th>Contact No.</th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Drinks</th>
+                </tr>
+                <tr>
+                    <td><input type="name" placeholder="Contact no.:" name="contact"></td>
+                    <td><input type="text" name="name" placeholder="Name:"></td>
+                    <td><input type="text" name="location" placeholder="Your location:"></td>
+                    <td><input type="text" name="drinks" placeholder="Drinks order:"></td>
+                </tr>
+        </table>
+
+        <button class="btn">Submit</button>
+    </section>
+
+</body>
+</html>
